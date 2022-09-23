@@ -1,0 +1,136 @@
+@charset "UTF-8";
+@font-face { font-family: droid; src: url(fontes/idroid.otf);}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #a2e7c2;
+    margin: 0px;
+}
+
+header {
+    display: block;
+    background-image:linear-gradient(to top, #063D1E 15%, #1D7846, #238A52); 
+    width: auto;
+    height: auto;
+    padding: 3px;
+    margin: auto;
+}
+header > h1 {
+    text-align: center;
+    color: white;
+}
+h2#tit {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+li.nav {
+    display: inline;    
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+main {
+    display: block;
+    margin: auto;
+    width: auto;
+    max-width: 800px;
+    text-align: justify;
+    background-color: white;
+    padding: 10px;
+}
+h2 {
+    font-family: droid; 
+    text-align: left;
+    color: #377152;
+}
+#sub {
+    text-align: left;
+    font-family: droid;
+    background-image: linear-gradient(to right, #84E2AE, #BFEFD4, #E7F9EF, #FBFEFC);
+    padding: 5px;
+    color: #255C37;
+}
+
+p {
+    text-indent: 40px;
+}
+
+picture {
+    margin: auto;
+}
+picture#logo {
+    display: block;
+    max-width: 350px;
+    margin: auto;
+}
+
+section#video {
+    display: block;
+    border: 15px solid rgb(1, 83, 1);
+}
+
+aside {
+    display: block;
+    background-color:  rgb(183, 247, 183);
+    border-radius: 15px;
+    padding: 0px ;
+    margin-top: 10px;
+}
+aside > h3 {
+    display: block;
+    padding: 15px;
+    margin-left: 0px;
+    background-color:  rgb(1, 83, 1);
+    border-radius: 10px;
+}
+ul#um {
+    list-style: "✔";
+}
+ul#dois {
+    display: inline-block;
+    float: right;
+    margin: -140px auto;
+    list-style-type:"✔";
+}
+
+footer {
+    width: auto;
+    text-align: center;
+    color: white;
+    background-color: rgb(1, 83, 1);
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    background-color: rgb(150, 221, 150);
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+    color: #245f40;
+}
+
+span.link {
+    color:rgb(1, 83, 1);
+    font-weight: bold;
+    padding: 2px;
+}
+a.link::after {
+    content: '🔗';
+}
+a.link2 {
+    color: rgb(1, 83, 1);
+    font-weight: bold;
+    background-color: #83E1AD;
+    padding: 2px;
+}
+a.link2::after {
+    content: '🔗';
+}
