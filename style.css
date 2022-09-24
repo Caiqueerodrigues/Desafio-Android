@@ -63,6 +63,7 @@ p {
 
 picture {
     margin: auto;
+    max-width: 780px;
 }
 picture#logo {
     display: block;
